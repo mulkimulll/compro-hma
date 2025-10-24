@@ -9,22 +9,27 @@
         <div class="wized-body">
             <!-- single categoris -->
             <ul class="single-categories">
-                <li><a href="#">Infrastruktur IT <i class="far fa-long-arrow-right"></i></a></li>
+                <li><a href="{{ url('/service/software') }}">Perangkat Lunak <i class="far fa-long-arrow-right"></i></a></li>
             </ul>
             <!-- single categoris End -->
             <!-- single categoris -->
             <ul class="single-categories">
-                <li><a href="#">Alat Peraga <i class="far fa-long-arrow-right"></i></a></li>
+                <li><a href="{{ url('/service/infra') }}">Infrastruktur IT <i class="far fa-long-arrow-right"></i></a></li>
             </ul>
             <!-- single categoris End -->
             <!-- single categoris -->
             <ul class="single-categories">
-                <li><a href="#">Furniture <i class="far fa-long-arrow-right"></i></a></li>
+                <li><a href="{{ url('/service/alat-peraga') }}">Alat Peraga <i class="far fa-long-arrow-right"></i></a></li>
             </ul>
             <!-- single categoris End -->
             <!-- single categoris -->
             <ul class="single-categories">
-                <li><a href="#">Keamanan Data <i class="far fa-long-arrow-right"></i></a></li>
+                <li><a href="{{ url('/service/furniture') }}">Furniture <i class="far fa-long-arrow-right"></i></a></li>
+            </ul>
+            <!-- single categoris End -->
+            <!-- single categoris -->
+            <ul class="single-categories">
+                <li><a href="{{ url('/service/keamanan-data') }}">Keamanan Data <i class="far fa-long-arrow-right"></i></a></li>
             </ul>
             <!-- single categoris End -->
         </div>

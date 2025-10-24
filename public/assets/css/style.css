@@ -15510,13 +15510,13 @@ body.sal-disabled [data-sal|="flip"] {
 }
 
 .header-main-one .thumbnail a {
-  padding: 36px 0;
+  padding: 25px 0;
   display: block;
   max-width: max-content;
 }
 @media only screen and (max-width: 479px) {
   .header-main-one .thumbnail a {
-    padding: 18px 0;
+    padding: 13px 0;
   }
 }
 
@@ -18819,6 +18819,7 @@ button.menu.rts-btn.btn-primary-3-menu:hover .menu-light {
 .index-seven.hr a.rts-btn {
   border-radius: 100px !important;
   background: var(--color-primary-5) !important;
+  margin-bottom: 70px;
 }
 .index-seven.hr a.rts-btn:hover {
   background: var(--color-primary-alta) !important;
@@ -19772,10 +19773,10 @@ p.disc.banner-para {
 }
 
 .banner-human-bg {
-  background-image: url(../images/img/banner1.jpg);
+  background-image: url(../images/img/banner4.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 1150px;
+  height: 950px;
   position: relative;
 }
 @media only screen and (max-width: 1199px) {
@@ -24076,6 +24077,7 @@ section.svg-container:nth-last-of-type(0) svg.radial-progress {
 .rts-single-service-style-process .icon {
   position: relative;
   transition: 0.6s;
+  margin-bottom: 30px;
 }
 .rts-single-service-style-process .icon::after {
   position: absolute;
@@ -33423,7 +33425,7 @@ p.disc {
 .single-contact-one-inner .content {
   display: flex;
   align-items: center;
-  padding: 40px;
+  padding: 30px;
   background-color: var(--color-primary-alta);
 }
 @media only screen and (max-width: 767px) {

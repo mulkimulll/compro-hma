@@ -17,7 +17,11 @@
                                     <a class="nav-item" href="{{ url('/') }}">Beranda</a>
                                 </li>
                                 <li>
-                                    <a class="nav-item" href="#tentang">Tentang Kami</a>
+                                    @if (request()->is('/'))
+                                    <a class="nav-item scroll-link" href="#tentang">Tentang Kami</a>
+                                    @else
+                                    <a class="nav-item" href="{{ url('/#tentang') }}">Tentang Kami</a>
+                                    @endif
                                 </li>
                                 <li class="has-droupdown">
                                     <a class="nav-link" href="#">Layanan</a>
@@ -33,16 +37,20 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li>
+                                {{-- <li>
                                     <a class="nav-item" href="{{ url('/download') }}">Unduh</a>
-                                </li>
+                                </li> --}}
                                 <li>
                                     <a class="nav-item" href="{{ url('/contact') }}">Kontak</a>
                                 </li>
                             </ul>
                         </nav>
                         <div class="button-area">
-                            <button id="search" class="rts-btn btn-primary-alta"><i class="far fa-search"></i></button>
+                            {{-- <button id="search" class="rts-btn btn-primary-alta"><i class="far fa-search"></i></button> --}}
+                            <button id="menu-btn" class="menu rts-btn btn-primary-alta ml--20 ml_sm--5">
+                                    <img class="menu-dark" src="{{ asset('assets/images/menu.png') }}" alt="Menu-icon">
+                                    <img class="menu-light" src="{{ asset('assets/images/menu-light.png') }}" alt="Menu-icon">
+                                </button>
                         </div>
                     </div>
                 </div>

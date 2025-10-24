@@ -2,7 +2,7 @@
 @push('css')
     <style>
         .breadcrumb-bg-pl {
-            background-image: url('{{ asset('assets/images/banner-dtl.jpg') }}');
+            background-image: url('{{ asset('assets/images/img/banner10.png') }}');
         }
     </style>
 @endpush

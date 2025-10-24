@@ -2,7 +2,7 @@
 @push('css')
     <style>
         .breadcrumb-bg-pl {
-            background-image: url('{{ asset('assets/images/banner-dtl.jpg') }}');
+            background-image: url('{{ asset('assets/images/img/contact.png') }}');
         }
     </style>
 @endpush
@@ -35,7 +35,7 @@
                     <div class="single-contact-one-inner">
                         <div class="content">
                             <div class="icone">
-                                <img src="assets/images/contact/shape/01.svg" alt="">
+                                <img src="{{ asset('assets/images/contact/shape/02.svg') }}" alt="">
                             </div>
                             <div class="info">
                                 <span>Email</span>
@@ -52,7 +52,7 @@
                     <div class="single-contact-one-inner">
                         <div class="content">
                             <div class="icone">
-                                <img src="assets/images/contact/shape/02.svg" alt="">
+                                <img src="{{ asset('assets/images/contact/shape/02.svg') }}" alt="">
                             </div>
                             <div class="info">
                                 <span>Info</span>
@@ -69,7 +69,7 @@
                     <div class="single-contact-one-inner">
                         <div class="content">
                             <div class="icone">
-                                <img src="assets/images/contact/shape/03.svg" alt="">
+                                <img src="{{ asset('assets/images/contact/shape/03.svg') }}" alt="">
                             </div>
                             <div class="info">
                                 <span>Web</span>

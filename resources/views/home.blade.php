@@ -1,5 +1,11 @@
 @extends('app')
-
+@push('css')
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+@endpush
 @section('content')
      <!-- rts banner area start -->
     <div class="rts-banner-area banner-human-bg rts-section-gap">
@@ -23,11 +29,10 @@
         </div>
     </div>
     <!-- rts banner area end -->
-
     <div class="bg-shape-wrapper-main">
         <!-- rts about area start -->
-        <div class="rts-about-area-start rts-section-gapBottom">
-            <div id="tentang" class="container">
+        <div class="rts-about-area-start rts-section-gapBottom" id="tentang">
+            <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6 pr--70 pr_md--0 pr_sm--0">
                         <div class="title-area-style-six text-start">
@@ -42,7 +47,7 @@
                         </div>
                         <div class="about-content-inner-style-six">
                             <p class="disc">
-                                merupakan perusahaan yang bergerak di bidang solusi IT, software, hardware,
+                                Merupakan perusahaan yang bergerak di bidang solusi IT, software, hardware,
                                 infrastruktur, jaringan,
                                 data center, digital solution, keamanan data, distributor alat peraga, Lab. dan
                                 Furnitur. <br> <br>
@@ -54,37 +59,50 @@
                                 swasta maupun
                                 pemerintah dengan selalu menerapkan teknologi produk terkini dengan layanan terbaik.
                             </p>
-                            <div class="item-check-inner">
-                                <div class="single-col">
-                                    <div class="single-check">
-                                        <i class="fas fa-check-circle"></i>
-                                        Perangkat Lunak
-                                    </div>
-                                    <div class="single-check">
-                                        <i class="fas fa-check-circle"></i>
-                                        Infrastruktur IT
-                                    </div>
-                                    <div class="single-check">
-                                        <i class="fas fa-check-circle"></i>
-                                        Keamanan Data
-                                    </div>
-                                </div>
-                                <div class="single-col">
-                                    <div class="single-check">
-                                        <i class="fas fa-check-circle"></i>
-                                        Alat Peraga
-                                    </div>
-                                    <div class="single-check">
-                                        <i class="fas fa-check-circle"></i>
-                                        Distributor
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="thumbnail-about-six">
-                            <img src="{{ asset('assets/images/img/PT.png') }}" alt="about-image" />
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="single-feature-area-nine">
+                                    <div class="icon-area">
+                                        <img src="{{ asset('assets/images/img/12.svg') }}" alt="">
+                                    </div>
+                                    <div class="info-area">
+                                        <h6 class="title">Perangkat Lunak </h6>
+                                        {{-- <p class="disc">Fusce condimentum mattis placerat odio donec lacus porta torquent, mauris gravida rutrum</p> --}}
+                                    </div>
+                                </div>
+                                <div class="single-feature-area-nine">
+                                    <div class="icon-area">
+                                        <img src="{{ asset('assets/images/img/5.svg') }}" alt="">
+                                    </div>
+                                    <div class="info-area">
+                                        <h6 class="title">Infrastruktur IT </h6>
+                                        {{-- <p class="disc">Fusce condimentum mattis placerat odio donec lacus porta torquent, mauris gravida rutrum</p> --}}
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="single-feature-area-nine">
+                                    <div class="icon-area">
+                                        <img src="{{ asset('assets/images/img/6.svg') }}" alt="">
+                                    </div>
+                                    <div class="info-area">
+                                        <h6 class="title">Keamanan Data </h6>
+                                        {{-- <p class="disc">Fusce condimentum mattis placerat odio donec lacus porta torquent, mauris gravida rutrum</p> --}}
+                                    </div>
+                                </div>
+                                <div class="single-feature-area-nine">
+                                    <div class="icon-area">
+                                        <img src="{{ asset('assets/images/contact/shape/04.svg') }}" alt="">
+                                    </div>
+                                    <div class="info-area">
+                                        <h6 class="title">Alat Peraga </h6>
+                                        {{-- <p class="disc">Fusce condimentum mattis placerat odio donec lacus porta torquent, mauris gravida rutrum</p> --}}
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
