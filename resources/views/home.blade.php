@@ -125,7 +125,7 @@
                         <!-- single-service area start -->
                         <div class="rts-single-service-style-process text-center">
                             <div class="icon">
-                                <img src="{{ asset('assets/images/img/1.svg') }}" alt="" />
+                                <img src="{{ asset('assets/images/img/7.svg') }}" alt="" />
                             </div>
                             <h5 class="title">Web & Mobile Application</h5>
                             <p class="disc">
