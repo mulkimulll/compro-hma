@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PT. Hanatekindo Mulia Abadi</title>
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/images/logo/logo.png') }}" />
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/images/logo/icon.png') }}">
+    <link rel="icon" type="image/png" sizes="48x48" href="{{ asset('assets/images/logo/icon48x48.png') }}">
     <link rel="stylesheet" href="{{asset('assets/css/swiper.min.css')}}" />
     <link rel="stylesheet" href="{{asset('assets/css/fontawesome-5.css')}}" />
     <link rel="stylesheet" href="{{asset('assets/css/animate.min.css')}}" />
